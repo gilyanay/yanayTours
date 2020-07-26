@@ -1,0 +1,29 @@
+.vacations{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+   padding: 10px;
+}
+
+
+.vacations > .vacationArea{
+    border: solid 1px black;
+    width: 45%;
+    height: 50%;
+    display: inline-block;
+    margin: 5px;
+}
+
+.vacations > .vacationArea > img{
+    width: 100%;
+    height: 55%;
+}
+
+.vacations >.vacationArea >  #cardHeader{
+display: flex;
+flex-direction: row;
+}
+
+.vacations >.vacationArea >  #cardHeader > h4{
+    flex: 1;
+}
